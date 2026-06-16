@@ -9,7 +9,7 @@ $nova_frase = str_replace("maçã", "banana", $frase);
 echo $nova_frase."<br>";
 // Saída: Eu gosto de banana.
 
-$email = "wesley12teste@gmail.com";
+$email = "Nicolau@gmail.com";
 $dominio = substr($email, 8); // Pega tudo a partir do índice 8
 echo $dominio."<br>";
 // Saída: gmail.com
@@ -26,7 +26,7 @@ $texto = "ISSO É UM TESTE";
 echo strtoupper($texto)."<br>";
 // Saída: ISSO É UM TESTE
 
-$nome = "Wesley";
+$nome = "Nícolas";
 echo ucfirst($nome)."<br>";
 // Saída: Wesley
 
@@ -35,7 +35,7 @@ $limpo = trim($entrada);
 echo $limpo."<br>";
 // Saída: oi
 
-$data = "27-04-2006";
+$data = "02-07-2009";
 $partes = explode("-", $data);
 // $partes agora é um array: ["27", "04", "2006"]
 echo $partes[0]."<br>"; // Dia
@@ -56,10 +56,10 @@ if ($posicao !== false) {
 }
 // Saída: A palavra 'gato' foi encontrada na posição: 2
 
-$nome = "Isabella";
-$idade = 20;
-$texto = sprintf("<br>"."O nome dela é %s e ela tem %d anos.", $nome, $idade);
+$nome = "Xiru";
+$idade = 26;
+$texto = sprintf("<br>"."O nome dele é %s e ele tem %d anos.", $nome, $idade);
 echo $texto."<br>";
-// Saída: O nome dela é Isabella e ela tem 20 anos.
+// Saída: O nome dele é Xiru e ele tem 26 anos.
 
 ?>
